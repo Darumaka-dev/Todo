@@ -72,7 +72,7 @@ function App() {
       )
     );
   };
-
+ 
   const deleteTask = (id) => {
     setTodos(() => {
       return todos.filter((item) => item.id !== id)
@@ -114,7 +114,7 @@ function App() {
     setTodos([]);
   };
 
-  //проверяем localeStorage при первом рендере  // Стейт  перезаписывается на 17 строке
+  //проверяем localeStorage при первом рендере  // Стейт  перезаписывается на 49 строке
   // useEffect(() => {
   //   const dataLocaleStorage = localStorage.getItem('todos');
   //   console.log(dataLocaleStorage);
